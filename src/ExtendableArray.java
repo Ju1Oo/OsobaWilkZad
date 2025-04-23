@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.lang.Object;
 
-//Klasa z biura podrozy w razie potrzeby dodan nowe funkcjonalnosci
+//Klasa z biura podrozy w razie potrzeby dodac nowe funkcjonalnosci
 
 @SuppressWarnings("unchecked")
 public class ExtendableArray<T> implements Iterable<T> {

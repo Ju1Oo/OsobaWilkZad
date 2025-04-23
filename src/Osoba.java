@@ -10,7 +10,7 @@
         private Osoba ojciec;
         ExtendableArray<Transakcja> Transactions;
 
-        Osoba(  String in_imie, String in_nazwisko, String in_nazwiskoPanienskie, Adres in_adres, DataUrodzenia in_dataUrodzenia, Osoba in_matka, Osoba in_ojciec)
+        public Osoba(  String in_imie, String in_nazwisko, String in_nazwiskoPanienskie, Adres in_adres, DataUrodzenia in_dataUrodzenia, Osoba in_matka, Osoba in_ojciec)
         {
             imie = in_imie;
             nazwisko = in_nazwisko;
@@ -21,7 +21,7 @@
             ojciec = in_ojciec;
         }
 
-        Osoba(  String in_imie, String in_nazwisko, String in_nazwiskoPanienskie, Adres in_adres, DataUrodzenia in_dataUrodzenia)
+        public Osoba(  String in_imie, String in_nazwisko, String in_nazwiskoPanienskie, Adres in_adres, DataUrodzenia in_dataUrodzenia)
         {
             imie = in_imie;
             nazwisko = in_nazwisko;
