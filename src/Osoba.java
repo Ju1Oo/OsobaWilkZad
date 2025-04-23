@@ -8,6 +8,7 @@
         private DataUrodzenia dataUrodzenia;
         private Osoba matka;
         private Osoba ojciec;
+        ExtendableArray<Transakcja> Transactions;
 
         Osoba(  String in_imie, String in_nazwisko, String in_nazwiskoPanienskie, Adres in_adres, DataUrodzenia in_dataUrodzenia, Osoba in_matka, Osoba in_ojciec)
         {
