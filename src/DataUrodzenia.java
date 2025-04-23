@@ -3,9 +3,11 @@ public class DataUrodzenia {
     private int month;
     private int year;
 
-    public DataUrodzenia()
+    public DataUrodzenia(int d,int m , int y)
     {
-
+        this.year = y;
+        this.month = m;
+        this.day = d;
     }
 
     public int getDay() {
