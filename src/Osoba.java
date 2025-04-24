@@ -3,7 +3,7 @@
         private int id;
         private String imie;
         private String nazwisko;
-        private String nazwiskoPanienskie;
+        private String nazwiskoPanienskieMatki;
         private Adres adres;
         private DataUrodzenia dataUrodzenia;
         private Osoba matka;
@@ -14,7 +14,7 @@
         {
             imie = in_imie;
             nazwisko = in_nazwisko;
-            nazwiskoPanienskie = in_nazwiskoPanienskie;
+            nazwiskoPanienskieMatki = in_nazwiskoPanienskie;
             adres = in_adres;
             dataUrodzenia = in_dataUrodzenia;
             matka = in_matka;
@@ -25,7 +25,7 @@
         {
             imie = in_imie;
             nazwisko = in_nazwisko;
-            nazwiskoPanienskie = in_nazwiskoPanienskie;
+            nazwiskoPanienskieMatki = in_nazwiskoPanienskie;
             adres = in_adres;
             dataUrodzenia = in_dataUrodzenia;
         }
